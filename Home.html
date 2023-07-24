@@ -22,7 +22,7 @@
       <a class="navbar-brand" href="#">
         <img src="./img/Logo Bandera Dorada.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
         El Recreo
-        <a class="navbar-brand" href="#">Nosotros</a>
+        <a class="navbar-brand" href="#nosotros">Nosotros</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,30 +30,30 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle active" href="#grupos" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Grupos
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Inicial</a></li>
-                <li><a class="dropdown-item" href="#">Primario</a></li>
-                <li><a class="dropdown-item" href="#">Femenino</a></li>
-                <li><a class="dropdown-item" href="#">Liga Formativa</a></li>
+                <li><a class="dropdown-item" href="#inicial">Inicial</a></li>
+                <li><a class="dropdown-item" href="#primario">Primario</a></li>
+                <li><a class="dropdown-item" href="#grupos">Femenino</a></li>
+                <li><a class="dropdown-item" href="#grupos">Liga Formativa</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle active" href="#inscripcion" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Inscribite
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Inicial</a></li>
-                <li><a class="dropdown-item" href="#">Primario</a></li>
-                <li><a class="dropdown-item" href="#">Femenino</a></li>
+                <li><a class="dropdown-item" href="#inscripcion">Inicial</a></li>
+                <li><a class="dropdown-item" href="#inscripcion">Primario</a></li>
+                <li><a class="dropdown-item" href="#inscripcion">Femenino</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contacto</a>
+              <a class="nav-link active" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -77,7 +77,7 @@
     </div>
 
   </div>
-  <div class="container-fluid"> <!--Pestaña de nosotros-->
+  <div class="container-fluid" id="nosotros"> <!--Pestaña de nosotros-->
     <div class="row text-center">
       <h3>Nosotros</h3>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, labore accusantium facere ratione quo
@@ -85,7 +85,7 @@
         Recusandae, iure?</p>
     </div>
   </div>
-  <div class="container-fluid"> <!--Pestaña de Grupos-->
+  <div class="container-fluid" id="grupos"> <!--Pestaña de Grupos-->
     <div class="row text-center">
       <h3>Grupos</h3>
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -99,8 +99,8 @@
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
             aria-label="Slide 4"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-bs-interval="10000" id="inicial">
             <img src="./img/ba1.jpg" class="d-block w-100" alt="...">
             <div class="container">
               <div class="row">
@@ -165,14 +165,14 @@
     </div>
   </div>
   <!--Pestaña de Inscribite-->
-  <div class="container-fluid">
+  <div class="container-fluid" id="inscripcion">
     <h3>Vení a jugar con nosotros</h3>
     <div class="row">
       <h3>Completá tus datos</h3>
     </div>
   </div>
   <!--Pestaña de Contactanos-->
-  <div class="container-fluid">
+  <div class="container-fluid" id="contacto">
     <div class="row">
       <div class="col-6">
         <h3>Seguinos en instagram</h3>
