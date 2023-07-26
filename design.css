@@ -1,14 +1,22 @@
-head {background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,139,227,1) 50%, rgba(252,216,69,1) 100%);}
-body {
+#NavB {background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(79,135,163,1) 54%, rgba(173,243,249,1) 100%);
+}  
+    body {
     background-image: url(./img/Fondo.png);
   background-size: cover;
   /*background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
 rgba(28,139,227,1) 50%, rgba(252,216,69,1) 100%);*/
 }
-h1{ color:antiquewhite}
+h1{ color:antiquewhite; font-family: "Roboto Slab", serif}
 
 entrada{background-color: rgba(0, 0, 0, 0.185); border-color:  rgba(0, 0, 0, 0.185);}
-p{color:antiquewhite}
-h3{color: darkorange;}
+p{color:antiquewhite; font-family: "Roboto Slab", serif}
+h3{color:#FFCD1F; font-family: "Roboto Slab", serif}
+h5{color:#50B3BA; font-family: "Roboto Slab", serif}
+h6{color: #9DE5F2; font-family: "Roboto Slab", serif}
+#fondo{color:#9DE5F2}
+#ig{color:#9DE5F2; font-family: "Roboto Slab", serif}
+#mifoto{
+    filter: brightness(60%)}
+#roboto{font-family: "Roboto Slab", serif} 
