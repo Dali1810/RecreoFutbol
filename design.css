@@ -1,8 +1,11 @@
 head {background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,139,227,1) 50%, rgba(252,216,69,1) 100%);}
 body {
-    background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,139,227,1) 50%, rgba(252,216,69,1) 100%);
+    background-image: url(./img/Fondo.png);
+  background-size: cover;
+  /*background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+rgba(28,139,227,1) 50%, rgba(252,216,69,1) 100%);*/
 }
 h1{ color:antiquewhite}
 
